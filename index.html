@@ -1,97 +1,116 @@
 <!--
 Requirements
-[  ] Two Different Headlines
-[  ] Bold and Italic Text
-[  ] One List
-[  ] Three Images
+[  ] Two Element Selectors
+[Yes] Two ID Selectors
+[Yes] Two Class Selectors
+[Yes] Three Images
 
 Select ONE Additional Feature to Add  
-[ yes ] Feature 1 - Include at least three emojis
-[ no ] Feature 2 - Include <font> tag
-[ no ] Feature 3 - Include Underline & Highlight
-[ no ] Feature 4 - Use Square Bullets
-[ no ] Feature 5 - Include a list within a list
+[ yes ] Feature 1 - Include a Background Image
+[ no ] Feature 2 - Include Border Radius CSS Property
+[ no ] Feature 3 - Include Horizontal Line
+[ no ] Feature 4 - Embed YouTube Video
+[ no ] Feature 5 - Include Border CSS Property
 -->
     
 <!DOCTYPE HTML>
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Unit 1 Project</title>
+        <title>Unit 2 Project</title>
       
+      <style>
+        
+        body{background-image:url(https://i.pinimg.com/736x/8f/25/9d/8f259d84af04b9651f27bc77c40174d0.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;}
+        
+        html{height: 100%;
+        width: 100%;}
+        html{border:10px solid rgb(240, 223, 232);}
+        
+        #title{color: rgb(114,93,59);}
+        
+        .Flavors{color: rgb(240, 223, 232);}
+        .Flavors{background-color: rgb(255, 255, 255);}
+      
+        .Pairings {background-color: rgb(236, 213, 195);}
+        .Pairings {color: rgb(114, 93, 59)}
   
-    </head>
+        .First-List {background-color: rgb(182, 147, 119);}
+        .Second-List {background-color: rgb(137, 108, 86);}
+        .Last-List {background-color: rgb(100, 77, 59);}
+        
+        #Brown-Sugar {border:5px solid rgb(157,87,55);}
+        #Brown-Sugar {float:right;}
+        
+        #Pumpkin-Spice {border:5px solid rgb(220, 145, 37)}
+        #Pumpkin-Spice {float:right;}
+        
+        #Caramel-Apple {border:5px solid rgb(180, 52, 60)}
+        #Caramel-Apple {float:right;}
+        
+      </style>
+   
+  </head>
+  
     <body>
-      
-          <h1>All About Xing Xing the Monkey!🙈</h1>
-      
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPij4VUrIlGFO_oN5N6DUA50aw1YM2XCbRgA&s">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr-luIOiKQ-dt3YlLmbVAmTXBuEiXcIOV2ew&s">
+
+      <h1 id="title"> Best Fall Coffee Flavors</h1>
       
       <h2>
-        An Insight Into the Rescue Monkey From Instagram Who Became an Overnight Sensation😍
+        <mark class="Flavors">Brown Sugar</mark>
       </h2>
       
-      <h3>
-        Who Is Xing Xing?⭐️⭐️
+          <img src="https://cheneetoday.com/wp-content/uploads/2024/01/shaken-espresso-recipe-1.jpg" width="125" id="Brown-Sugar">
+      
+    <h3>
+     <mark class="Pairings">Goes great with....</mark> 
       </h3>
-    
-      
-      <p>
-         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShLxyNX9u7kGZKfb_x-eJ-8H4Z5OHZijFQAg&s" align="right"> 
-        
-        <strong>Xing Xing</strong>, who's name means "Twin Stars", is a Tibetan Macaque monkey who was rescued and now lives in Daliang Mountain in East China. She only has one arm due to a loss of the other when she was harmed by a wild boar trap. She was then sold to a circus after being found in this condition. Shorlty after she went on to live in a restaurant so she could entertain customers, but due to her large appetite she also had to leave the restaurant. 
-    
-      </p>
-      
-      <p>
-         <strong>Xing Xing</strong> was lucky to come across an elderly Buddhist nun who the internet refers to as "Grandma" (<em>as she is like  <strong>Xing Xing's</strong> Grandmother</em>) where she has lived ever since. So, <strong>Xing Xing</strong> is not <em>just</em> a charming and cute persona, she is the epitome of perserverance.
-      
-    
-      
-      </p>
-
-      
-      <h3>
-        Xing Xing on the Internet📱
-      </h3>
-      
-      <p>
-        The entire reason we know <strong>Xing Xing's</strong> story is because of her instagram. Videos of  <strong>Xing Xing</strong> spending time with Grandma, eating food and playing with her cat have circulated the internet for months going viral. She has grown such a big internet presence and following that she now has fans coming from across the world to visit her daily. She is known for getting a bit feisty with some, but she is beloved nonetheless. In fact, one fan (<em>Aka my mother</em>) in particular stated, " <u><strong>Xing Xing</strong> keeps me going"</u>. 
-      </p>
-      
-      <h3>
-        What Does Xing Xing Like to Do?🍌🐱🧃
-      </h3>
-        
+           
       <p>
         <ul>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAFl0RTPpj_vsk_FS54-lq0PP7AXmb5a4Ayw&s" width="200" align="right">
-<li> <strong>Xing Xing</strong> is friends with a cat that also lives around the mountains. They can often be found playing and cuddling with each other.</li> <br>
-<li> <strong>Xing Xing</strong> loves to eat. She is often found sipping on some juice or indulging in a little snack. Infact, some of her most famous videos are of her being presented food from her fans that she proceeds to sniff, lick and examine and then throws aside in disgust.</li> <br>
-<li>She loves to spend time with Grandma. She is at her happiest when Grandma is brushing her hair, petting her and sitting nearby. </li>
-         
+          <li><mark class="First-List">Caramel Syrup</mark></li>
+  <li><mark class="Second-List">Shaken Espresso</mark></li>
+  <li><mark class="Last-List">Vanilla Syrup</mark></li>
       </ul>
       </p>
-  
-  <h3>
-    Xing Xing Top 3 Moments🐒🌺🍤
-  </h3>
       
-  <ol>
-<li><strong>Xing Xing</strong> smiles as she is approached by a fan <br></li>
-<li><strong>Xing Xing</strong> throws aside contents of a shrimp dish <br></li>
-    <li><strong>Xing Xing</strong> threatens to bite fan but shows dissappointment when she fails to scare him </li>
-  </ol>
+      <h2>
+        <mark class="Flavors">Pumpkin Spice</mark>
+      </h2>
+      
+  <img id="Pumpkin-Spice" src="https://coffeecopycat.com/wp-content/uploads/2023/10/IcedPumpkinSpiceLatte-1200-x-1200-500x500.jpg" width="125">
   
- <h3>
-   Who's Next?🦛🤩
-  </h3>
-  
+   <h3>
+      <mark class="Pairings">Goes great with....</mark>
+      </h3>
+      
   <p>
-     <img src="https://dims.apnews.com/dims4/default/7069a3c/2147483647/strip/true/crop/6000x4000+0+0/resize/599x399!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F46%2Fea%2Fd7e210645d3b9927a91619a3d67d%2Ffeb5b407d73445169c4aff7641b54f46" width="200" align="right">
-    Recently, the newest animal sensation is <strong>Moo Deng</strong> the Pygmy Hippo. She is most known for her "relatable" attitude and outbursts as well as her petite size.
+    <ul>
+      <li><mark class="First-List">Espresso Latte</mark></li>
+      <li><mark class="Second-List">Chai Tea</mark></li>
+      <li><mark class="Last-List">Cinnamon or Nutmeg</mark></li>
+  </ul>
   </p>
   
+      <h2>
+        <mark class="Flavors">Caramel Apple</mark>
+      </h2>
+      
+<img id="Caramel-Apple" src="https://annikaeats.com/wp-content/uploads/2022/10/DSC_0687-500x375.jpg?crop=1" width="125">
+
+   <h3>
+      <mark class="Pairings">Goes great with....</mark>
+      </h3>
+      
+<p>
+  <ul>
+    <li> <mark class="First-List">Macchiato</mark></li>
+    <li><mark class="Second-List">Cinnamon</mark></li>
+    <li><mark class="Last-List">Cold Foam</mark></li>
+</ul>
+</p>
+        
     </body>
 </html>
